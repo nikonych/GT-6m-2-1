@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="@dimen/_8dp"
+    android:layout_marginVertical="@dimen/_6dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_102dp"
+        android:layout_height="@dimen/_102dp"
+        app:cardCornerRadius="12dp"
+        >
+
+        <ImageView
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:layout_width="@dimen/_102dp"
+            android:layout_height="@dimen/_102dp"
+            android:contentDescription="@string/select_images"
+            />
+
+        <View
+            android:id="@+id/v_select_images"
+            android:layout_width="@dimen/_102dp"
+            android:layout_height="@dimen/_102dp"
+            android:background="@drawable/border"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/v_check_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/check"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:contentDescription="@string/select_images" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</FrameLayout>

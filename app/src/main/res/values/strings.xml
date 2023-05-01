@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GT-6m-2-1</string>
+    <string name="select_images">Выбор фотографий</string>
+    <string name="_2">Выбрано 2 фотографии</string>
+    <string name="done">Готово</string>
+    <string name="selected_images">Выбранные фотографии</string>
+</resources>

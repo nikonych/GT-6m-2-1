@@ -1,0 +1,3 @@
+<permissions xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+</permissions>
